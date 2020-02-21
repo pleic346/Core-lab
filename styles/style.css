@@ -56,6 +56,7 @@ margin-left: 830px;
 }
 p{
 	text-align: center;
+	color: white;
 }
 .Gd {
 	margin-top: -2230px;
@@ -63,4 +64,10 @@ p{
 	font-size: 33px;
 	letter-spacing: 8.43px;
 	word-break: 200px;
+}
+.RVd{
+	margin-top: -2100px;
+	letter-spacing: 8.43px;
+	word-break: 200px;
+}
 }
