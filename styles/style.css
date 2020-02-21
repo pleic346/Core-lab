@@ -1,10 +1,66 @@
-/**  ========================================================================== 
+.home{
+background-color: rgb(9.5,9.5,9.5);
+width: 100%;
+height: auto;
+display: block;
+}
+.background {
+	width: 100%;
+	height: auto;
+	opacity: 0.18;
+	margin-top: -470px;
+	object-position: fixed;
+	display: block;
+    }
 
-This is where your custom styles begin. 
+h1 {
+  font-family: "Nanum Myeongjo";
+  letter-spacing: 40px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: -100px;
+  color: white;
+  position: static;
+  z-index: 5;
+}
+.logo {
+	 max-width:7%;
+    height:auto;
+   margin-left: 1600px;
+margin-top: 110px;
+position: static;
+}
 
-==========================================================================  */
-
-
-.home {
-    
+.second{
+	 max-width:20%;
+    height:auto;
+   padding-top: 40px;
+   padding-left: 50px;
+}
+.menu{
+	position: absolute;
+	z-index: 100;
+	color: white;
+	margin-top: -2576px;
+	margin-left: 1628px; 
+	font-family: "Nanum Myeongjo";
+	letter-spacing: 6.43px;
+	font-size: 13px;
+}
+.goffee{
+	position: absolute;
+	z-index: 300;
+margin-top: -2330px;
+align-self: center;
+margin-left: 830px;
+}
+p{
+	text-align: center;
+}
+.Gd {
+	margin-top: -2230px;
+	color: white;
+	font-size: 33px;
+	letter-spacing: 8.43px;
+	word-break: 200px;
 }
