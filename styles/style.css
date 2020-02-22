@@ -1,12 +1,17 @@
+
+html{
+	width:100%;
+	height:auto;
+}
 .home{
 background-color: rgb(9.5,9.5,9.5);
-width: auto;
-height: auto;
+width:100%;
+height: 300%;
 display: block;
 }
 
 .background {
-	width: auto;
+	width: 100%;
 	height: auto;
 	opacity: 0.18;
 	margin-top: -470px;
@@ -38,7 +43,6 @@ position: static;
    padding-left: 50px;
 }
 .menu{
-	position: absolute;
 	z-index: 100;
 	color: white;
 	margin-top: -2576px;
