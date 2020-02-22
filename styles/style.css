@@ -1,15 +1,15 @@
-body{
+.home{
 background-color: rgb(9.5,9.5,9.5);
-width: 100%;
+width: auto;
 height: auto;
 display: block;
 }
+
 .background {
-	width: 100%
+	width: auto;
 	height: auto;
 	opacity: 0.18;
 	margin-top: -470px;
-	object-position: fixed;
 	display: block;
     }
 
