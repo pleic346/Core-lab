@@ -29,23 +29,23 @@ h1 {
   z-index: 5;
 }
 .logo {
-	 max-width:7%;
-    height:auto;
-   margin-left: 1600px;
+max-width:7%;
+height:auto;
+margin-left: 1600px;
 margin-top: 110px;
 position: static;
 }
 
 .second{
-	 max-width:20%;
-    height:auto;
+   max-width:20%;
+   height:auto;
    padding-top: 40px;
    padding-left: 50px;
 }
 .menu{
 	z-index: 100;
 	color: white;
-	margin-top: -2576px;
+	margin-top: -3100px;
 	margin-left: 1628px; 
 	font-family: "Nanum Myeongjo";
 	letter-spacing: 6.43px;
@@ -54,9 +54,9 @@ position: static;
 .goffee{
 	position: absolute;
 	z-index: 300;
-margin-top: -2330px;
-align-self: center;
-margin-left: 830px;
+	margin-top: -2330px;
+	align-self: center;
+	margin-left: 830px;
 }
 p{
 	text-align: center;
