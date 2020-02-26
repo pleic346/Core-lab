@@ -14,10 +14,23 @@ display: block;
 overflow-x: hidden;
 }
 
+.pulp {
+	/* margin-top: -2230px; */
+	color: white;
+	font-size:50px;
+	letter-spacing: 8.43px;
+	word-break: 200px;
+	align-self:center;
+ 	max-width:20%;
+   height:auto;
+   padding-top: 283px;
+   padding-left: 831px;
+}
+
 h1 {
   font-family: "Nanum Myeongjo";
   letter-spacing: 40px;
-  font-size: 40px;
+  font-size: 90px;
   text-align: center;
   /* margin-top: -100px; */
   color: white;
@@ -42,6 +55,23 @@ margin-right: 100px;
    padding-top: 40px;
    padding-left: 50px;
 }
+
+.GOFFEEL{
+	position: static;
+	z-index: 300;
+	/* margin-top: -2330px; */
+	align-self: center;
+	margin-left: 830px;
+	margin-top:-3000px;
+}
+
+
+}
+.RVd{
+	/* margin-top: -2100px; */
+	letter-spacing: 8.43px;
+	word-break: 200px;
+}
 .menu{
 	z-index: 100;
 	color: white;
@@ -51,37 +81,6 @@ margin-right: 100px;
 	letter-spacing: 6.43px;
 	font-size: 13px;
 }
-.GOFFEEL{
-	position: static;
-	z-index: 300;
-	/* margin-top: -2330px; */
-	align-self: center;
-	margin-left: 830px;
-	margin-top:-3000px;
-}
-p{
-	text-align: center;
-	color: white;
-}
-.Gd {
-	/* margin-top: -2230px; */
-	color: white;
-	font-size: 33px;
-	letter-spacing: 8.43px;
-	word-break: 200px;
-	align-self:center;
- 	max-width:20%;
-   height:auto;
-   padding-top: 283px;
-   padding-left: 770px;
-}
-}
-}
-.RVd{
-	/* margin-top: -2100px; */
-	letter-spacing: 8.43px;
-	word-break: 200px;
-}
 
 /*LOGO MENU DROP*/
 
@@ -89,8 +88,8 @@ p{
 {
 	align-self:center;
 	float: right;
-	margin-top: -3432px;
-	margin-right: 79px;
+	margin-top: -3566px;
+	margin-right: 77px;
 
 }
 
