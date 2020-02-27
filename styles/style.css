@@ -4,10 +4,6 @@ html{
 }
 .home{
 background-color: rgb(9.5,9.5,9.5);
-background-size: contain;
-background-position: top;
-display: block;
-overflow-x: hidden;
 }
 
 h1 {
