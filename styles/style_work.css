@@ -72,6 +72,8 @@ margin-right: 100px;
 	font-family: "Nanum Myeongjo";
 	letter-spacing: 6.43px;
 	font-size: 13px;
+	letter-spacing: 11px;
+	color:white;
 }
 
 #primary_nav_wrap {
@@ -87,10 +89,6 @@ margin-right: 100px;
 	position:relative;
 }
 
-.menu {
-		letter-spacing: 11px;
-		color:white;
-}
 
 #primary_nav_wrap ul a {
 	display:block;
