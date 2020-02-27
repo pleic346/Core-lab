@@ -1,15 +1,11 @@
 html{
-	width:100%;
+	width:auto;
 	height:auto;
 }
 .home{
 background-color: rgb(9.5,9.5,9.5);
-background-image: url('../black_image.png');
 background-size: contain;
 background-position: top;
-background-repeat: no-repeat;
-width:100vw;
-height: 300%;
 display: block;
 overflow-x: hidden;
 }
@@ -77,8 +73,8 @@ p{
 #primary_nav_wrap{
 	align-self:center;
 	float: right;
-	margin-top: -3432px;
-	margin-right: 79px;
+	margin-top: -3992px;
+	margin-right: 47px;
 
 }
 
