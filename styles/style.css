@@ -37,7 +37,6 @@ margin-right: 100px;
    padding-left: 50px;
 }
 .menu{
-	z-index: 100;
 	color: white;
 	font-family: "Nanum Myeongjo";
 	letter-spacing: 6.43px;
@@ -45,7 +44,6 @@ margin-right: 100px;
 }
 .GOFFEEL{
 	position: static;
-	z-index: 300;
 	align-self: center;
 	margin-left: 830px;
 	margin-top:-3000px;
