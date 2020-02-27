@@ -65,13 +65,12 @@ margin-right: 100px;
 	margin-top:-3000px;
 }
 
-
-}
 .RVd{
 	/* margin-top: -2100px; */
 	letter-spacing: 8.43px;
 	word-break: 200px;
 }
+
 .menu{
 	z-index: 100;
 	color: white;
@@ -84,8 +83,7 @@ margin-right: 100px;
 
 /*LOGO MENU DROP*/
 
-#primary_nav_wrap
-{
+#primary_nav_wrap {
 	align-self:center;
 	float: right;
 	margin-top: -3566px;
@@ -93,19 +91,17 @@ margin-right: 100px;
 
 }
 
-#primary_nav_wrap ul
-{
+#primary_nav_wrap ul {
 	list-style:none;
 	position:relative;
 }
 
-.menu{
+.menu {
 		letter-spacing: 11px;
 		color:white;
 }
 
-#primary_nav_wrap ul a
-{
+#primary_nav_wrap ul a {
 	display:block;
 	text-decoration:none;
 	font-weight:700;
@@ -115,54 +111,46 @@ margin-right: 100px;
 	font-family:"Nanum Myeongjo";
 }
 
-#primary_nav_wrap ul li
-{
+#primary_nav_wrap ul li {
 	position:relative;
 	float:left;
 	margin:0;
-	padding:0
+	padding:0;
 }
 
-#primary_nav_wrap ul li.current-menu-item
-{
-	background:#ddd
+#primary_nav_wrap ul li.current-menu-item {
+	background:#ddd;
 }
 
-#primary_nav_wrap ul li:hover
-{
-	background:#f6f6f6
+#primary_nav_wrap ul li:hover {
+	background:#f6f6f6;
 }
 
-#primary_nav_wrap ul ul
-{
+#primary_nav_wrap ul ul {
 	display:none;
 	position:absolute;
 	top:100%;
 	left:0;
 	background:#fff;
-	padding:0
+	padding:0;
 }
 
-#primary_nav_wrap ul ul li
-{
+#primary_nav_wrap ul ul li {
 	float:none;
-	width:200px
+	width:200px;
 }
 
-#primary_nav_wrap ul ul a
-{
+#primary_nav_wrap ul ul a {
 	line-height:120%;
-	padding:10px 15px
+	padding:10px;
 }
 
-#primary_nav_wrap ul ul ul
-{
+#primary_nav_wrap ul ul ul {
 	top:0;
-	left:100%
+	left:100%;
 }
 
-#primary_nav_wrap ul li:hover > ul
-{
-	display:block
+#primary_nav_wrap ul li:hover > ul {
+	display:block;
 }
 /*LOGO MENU DROP*/
