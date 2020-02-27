@@ -25,6 +25,8 @@ h1 {
 	margin-bottom: 150px;
 	z-index: 5;
 }
+
+
 .fixed-navigation {
 	/* NOTE: because you want this in upper right corner, lets add a "fixed" position */
 	position: fixed;
@@ -75,19 +77,4 @@ h1 {
   padding: 10px;
 }
 
-.pulp {
-	color: white;
-	font-size: 33px;
-	letter-spacing: 8.43px;
-	word-break: 200px;
-	align-self: center;
-	max-width: 20%;
-	height: auto;
-   /* NOTE: this centers your ".gd" class */
-	margin: 0 auto;
-}
 
-p {
-	text-align: center;
-	color: white;
-}
