@@ -1,4 +1,14 @@
-
+html{
+	width:auto;
+	height:auto;
+}
+.home{
+background-color: rgb(9.5,9.5,9.5);
+background-size: contain;
+background-position: top;
+display: block;
+overflow-x: hidden;
+}
 
 h1 {
   font-family: "Nanum Myeongjo";
@@ -27,6 +37,7 @@ margin-right: 100px;
    padding-left: 50px;
 }
 .menu{
+	z-index: 100;
 	color: white;
 	font-family: "Nanum Myeongjo";
 	letter-spacing: 6.43px;
@@ -34,6 +45,7 @@ margin-right: 100px;
 }
 .GOFFEEL{
 	position: static;
+	z-index: 300;
 	align-self: center;
 	margin-left: 830px;
 	margin-top:-3000px;
