@@ -15,7 +15,6 @@ overflow-x: hidden;
 }
 
 .pulp {
-	/* margin-top: -2230px; */
 	color: white;
 	font-size:50px;
 	letter-spacing: 8.43px;
@@ -32,7 +31,6 @@ h1 {
   letter-spacing: 40px;
   font-size: 90px;
   text-align: center;
-  /* margin-top: -100px; */
   color: white;
   position: static;
   margin-left: 340px;
@@ -43,7 +41,6 @@ h1 {
 .logo {
 max-width:7%;
 height:auto;
-/* margin-left: 1600px; */
 margin-top: 110px;
 position: static;
 float: right;
@@ -59,14 +56,12 @@ margin-right: 100px;
 .GOFFEEL{
 	position: static;
 	z-index: 300;
-	/* margin-top: -2330px; */
 	align-self: center;
 	margin-left: 830px;
 	margin-top:-3000px;
 }
 
 .RVd{
-	/* margin-top: -2100px; */
 	letter-spacing: 8.43px;
 	word-break: 200px;
 }
@@ -74,14 +69,10 @@ margin-right: 100px;
 .menu{
 	z-index: 100;
 	color: white;
-	/* //margin-top: -3100px; */
-	/* margin-left: 1628px;  */
 	font-family: "Nanum Myeongjo";
 	letter-spacing: 6.43px;
 	font-size: 13px;
 }
-
-/*LOGO MENU DROP*/
 
 #primary_nav_wrap {
 	align-self:center;
@@ -153,4 +144,3 @@ margin-right: 100px;
 #primary_nav_wrap ul li:hover > ul {
 	display:block;
 }
-/*LOGO MENU DROP*/
