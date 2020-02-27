@@ -1,93 +1,49 @@
-
 <!-- This is how to make a comment. Comments are visible in the code, but is not rendered to the browser. Index.html is the "home" page of websites. Welcome home. -->
-
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- The "meta" content. This shows up on searches. Update with your information -->
-    <title> Carmen Pleitez | Portfolio | My Work</title>
-    <meta name="description" content="My Work">
-    <meta name="author" content="Carmen Pleitez">
-
-    <!-- The favicon is an avatar. Update this file with your own 96x96 png ! -->
-    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
-
-    <!-- This is where the style CSS files live. -->
-    <!-- Hierchy and order of links matter! "reset.css" goes before "style.css" -->
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style_work.css">
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- The "meta" content. This shows up on searches. Update with your information -->
+  <title> Carmen Pleitez | Portfolio</title>
+  <meta name="description" content="MY Portfolio">
+  <meta name="author" content="Carmen Pleitez">
+  <!-- The favicon is an avatar. Update this file with your own 96x96 png ! -->
+  <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+  <!-- This is where the style CSS files live. -->
+  <!-- Hierchy and order of links matter! "reset.css" goes before "style.css" -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
-
-
 <body>
-    <!-- Inside the body, I've created a div with a class of "home".
+  <!-- Inside the body, I've created a div with a class of "home".
          This is you will begin building your own online home! -->
- <div class="home">
-       
-
-    <img class="logo" src="blanco.png" alt="Logo"></img>
+  <div class="home">
+    <div class="fixed-navigation">
+    <img class="logo" src="blanco.png" alt="Logo">
+    
+    <div class="navigation">
+      
+      <span class="menu"> menu</span>
+     
+      <ul class="menu-show">
+          <li><a href="index.html">home</a></li>
+          <li><a href="work.html">work</a></li>
+          <li><a href="#">about me</a></li>
+          <li><a href="#">contact</a></li>
+      </ul>
+    </div>
+   </div>
     
     <h1>work</h1>
 
   <a class="pulp" href="pulpfiction.html" >Pulp Fiction</a>
-</div>
+    <!-- NOTE: moved the gofeel logo above your gd class -->
     
-   <!-- <img class="outlier" src="este.png" alt="Logo"></img> -->
-    
-    <div class="menu"> <h2>menu</h2>
-      
-
-</div>
-     
-  
-<!--MENU CODE -->
-
-<h1>Simple Pure CSS Drop Down Menu</h1>
-<nav id="primary_nav_wrap">
-<ul>
-  <li class="current-menu-item"><a href="#"></a></li>
-    <ul>
-      <li><a href="#">Sub Menu 1</a></li>
-      <li><a href="#">Sub Menu 2</a></li>
-      <li><a href="#">Sub Menu 3</a></li>
-      <li><a href="#">Sub Menu 4</a>
-        <ul>
-          <li><a href="#">Deep Menu 1</a>
-            <ul>
-              <li><a href="#">Sub Deep 1</a></li>
-              <li><a href="#">Sub Deep 2</a></li>
-              <li><a href="#">Sub Deep 3</a></li>
-                <li><a href="#">Sub Deep 4</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a class="menu" href="#">menu</a>
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="work.html">work</a></li>
-      <li><a href="#">about me</a></li>
-      <li><a href="#">contact</a></li>
-    </ul>
-  </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-</nav>
-
-<!--MENU CODE ENDS -->
-
-    <!-- This is where the script file lives. We will get to this later in the course -->
-    <script src="./scripts.js"></script>
+   
+   
+  </div>
+  <!-- <img class="outlier" src="este.png" alt="Logo"></img> -->
+  <!-- This is where the script file lives. We will get to this later in the course -->
+  <script src="./scripts.js"></script>
 </body>
-
 </html>
