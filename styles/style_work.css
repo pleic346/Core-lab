@@ -26,6 +26,9 @@ h1 {
 	z-index: 5;
 }
 
+.er{
+	font-size: 30px;
+}
 
 .fixed-navigation {
 	/* NOTE: because you want this in upper right corner, lets add a "fixed" position */
