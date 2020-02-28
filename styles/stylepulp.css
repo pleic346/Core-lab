@@ -118,15 +118,15 @@ body {
 .dialoguev {
   color:white;
   font-size:40px;
+  display: block;
   margin-top: 150px;
   margin-left: 50px;
 }
 
 .no{
-  float:right;
-  width:30%;
-  display: block;
-  top:20px;
+    width:30%;
+    float:right;
+    margin-right:210px;
 }
 
 .no:hover {
