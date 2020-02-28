@@ -12,17 +12,30 @@ body {
   -webkit-font-feature-settings: "tnum";
 }
 
+ .t {
+      position:fixed;
+}
+
 .fondo{
-  display:block;
+  display: block;
   margin: 0 auto;
   width: 96%;
+
 }
 
 .narrationn {
   float:right;
   padding-right: 50px;
-  padding-top: 380px;
+  padding-top: 250px;
   font-size: 25px;
+}
+
+.dj {
+  display:block;
+  font-size: 40px;
+  color: yellow;
+  text-align:center;
+  margin-top: -100px;
 }
 
 
@@ -41,15 +54,7 @@ p {
   line-height:$TextLineHeight * 1.2;
   overflow:hidden;
 }
-      
- .tittle {
-      text-align:left;
-      margin-left:-$SLM;
-      margin-top:$TextLineHeight;
-      margin-bottom:$TextLineHeight;
-      font-weight:600;
-}
-    
+          
   .narration {
       p {
         margin:$TextLineHeight 0 $TextLineHeight 0;
