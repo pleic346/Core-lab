@@ -31,10 +31,15 @@ body {
 }
 
 .narrationn {
-  float:right;
+  text-align:right;
   padding-top: 350px;
   font-size: 25px;
   margin-right: 43px;
+}
+
+.narration {
+  font-size: 25px;
+  margin-right: 50px;
 }
 
 .dj {
@@ -58,39 +63,34 @@ body {
   width:30%;
 }
 
-#bad{
- margin-right:-850px;
- margin-top: 370px;
-}
+.julio {
 
-#julio {
   margin-top: 370px;
+  text-align:right;
+  color:yellow;
+  font-size: 40px;
 }
-
-#what{
-
+#bre{
+  text-align: right;
 }
 
 #jok{
-  margin-right:-850px;
  margin-top: 370px;
 }
 
 .dialoguej
 {
-  float:right;
+  text-align:right;
   color:yellow;
   font-size: 40px;
+  margin-right: 50px;
 }
 
-.dialogue-namej {
-  float:right;
-  color:yellow;
-  font-size: 40px;
-}
 
-.medio{
-  margin-top:80px;
+.po{
+  margin: 0 auto;
+  align-content: center;
+  display:block;
 }
 
 p {
