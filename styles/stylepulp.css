@@ -8,6 +8,8 @@ body {
   font-size:1em;
   background:black;
   color:white;
+  width:100%;
+  height:auto;
 }
 
 .t{
@@ -123,6 +125,8 @@ body {
 .no{
   float:right;
   width:30%;
+  display: block;
+  top:20px;
 }
 
 .no:hover {
