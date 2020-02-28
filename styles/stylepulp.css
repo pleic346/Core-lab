@@ -27,10 +27,9 @@ body {
 }
 
 .pu {
-  float: right;
+  right: 30px;
   width: 20%;
   position:fixed;
-  
 }
 
 
