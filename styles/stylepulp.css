@@ -30,7 +30,6 @@ body {
   position:fixed;
 }
 
-
 .narrationn {
   float:right;
   padding-top: 350px;
@@ -58,6 +57,13 @@ body {
   margin-right: 180px;
 }
 
+.dialoguej
+{
+  margin: 0 auto;
+  float:right;
+  color:yellow;
+  font-size: 40px;
+}
 
 p {
   margin:0;
