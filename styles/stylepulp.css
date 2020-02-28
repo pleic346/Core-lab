@@ -151,6 +151,7 @@ body {
 
 .fohu{
   float:right;
+  width:16%
 }
 
 .imageinn {
@@ -186,15 +187,32 @@ body {
 }
 
 
-.po{
+.blackinn {
   margin: 0 auto;
   align-content: center;
   display:block;
 }
 
-.fohu{
-  width:16%;
+.blackbox {
+  position: relative;
+  margin:0 auto;
+  display:block;
 }
+
+.blackbox .blackhover {
+  position: absolute;
+  display: none;
+  top:-40px;
+  left:650px;
+}
+
+.blackbox:hover .blackhover {
+  display: block;
+  transition-duration: 81s;
+
+}
+
+
 
 p {
   margin:0;
