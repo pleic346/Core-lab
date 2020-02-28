@@ -5,11 +5,11 @@ html{
   background-color: black;
 }
 body {
-  font-size:1em;
   background:black;
   color:white;
   width:100%;
   height:auto;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .t{
@@ -98,18 +98,20 @@ body {
 .narrationn {
   text-align:right;
   padding-top: 350px;
-  font-size: 25px;
+  font-size: 18px;
   margin-right: 43px;
+  color:#27FF00;
 }
 
 .narration {
-  font-size: 25px;
+  font-size: 18px;
   margin-right: 50px;
+  color:#27FF00;
 }
 
 .dj {
   display:block;
-  font-size: 40px;
+  font-size: 32px;
   color: yellow;
   text-align:center;
   margin-top: -100px;
@@ -117,7 +119,7 @@ body {
 
 .dialoguev {
   color:white;
-  font-size:40px;
+  font-size:32px;
   display: block;
   margin-top: 150px;
   margin-left: 50px;
@@ -126,7 +128,7 @@ body {
 .no{
     width:30%;
     float:right;
-    margin-right:210px;
+    margin-right:260px;
 }
 
 .no:hover {
@@ -138,7 +140,7 @@ body {
   margin-top: 370px;
   text-align:right;
   color:yellow;
-  font-size: 40px;
+  font-size: 32px;
 }
 #bre{
   text-align: right;
@@ -148,7 +150,7 @@ body {
  margin-top: 370px;
    text-align:right;
   color:yellow;
-  font-size: 40px;
+  font-size: 32px;
   margin-right: 270px;
 
 }
@@ -186,7 +188,7 @@ body {
 .dialoguej {
   text-align:right;
   color:yellow;
-  font-size: 40px;
+  font-size: 32px;
   margin-right: 50px;
 }
 
@@ -207,7 +209,7 @@ body {
   position: absolute;
   display: none;
   top:-40px;
-  left:650px;
+  left:550px;
 }
 
 .blackbox:hover .blackhover {
@@ -216,9 +218,9 @@ body {
 
 }
 
-
-
-p {
-  margin:0;
+.click{
+  font-size:45px;
+  font-family: Impact, Charcoal, sans-serif;
+  color:#27FF00;
 }
 

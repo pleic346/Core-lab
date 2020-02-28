@@ -1,0 +1,32 @@
+html{
+  width:100%
+  height:auto;
+  background-color: white;
+}
+
+.dialoguej{
+  text-align:right;
+  color:red;
+  font-size: 40px;
+  margin-right: 50px;
+}
+
+.dialoguev{
+  text-align:left;
+  color:black;
+  font-size: 40px;
+  margin-right: 50px;	
+}
+.narration{
+  font-size: 25px;
+ 	text-align: center;
+ 	color:white;
+ 	border: 1px solid black;
+ 	background:black;
+
+}
+.ella{
+	margin: 0 auto;
+	display:block;
+	width:40%;
+}
