@@ -224,3 +224,10 @@ body {
   color:#27FF00;
 }
 
+@media (max-width: 800px) {
+body{
+  background:white;
+}
+
+}
+
