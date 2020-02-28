@@ -54,15 +54,43 @@ body {
 
 .no{
   float:right;
-  margin-right: 180px;
+  margin-right: 290px;
+  width:30%;
+}
+
+#bad{
+ margin-right:-850px;
+ margin-top: 370px;
+}
+
+#julio {
+  margin-top: 370px;
+}
+
+#what{
+
+}
+
+#jok{
+  margin-right:-850px;
+ margin-top: 370px;
 }
 
 .dialoguej
 {
-  margin: 0 auto;
   float:right;
   color:yellow;
   font-size: 40px;
+}
+
+.dialogue-namej {
+  float:right;
+  color:yellow;
+  font-size: 40px;
+}
+
+.medio{
+  margin-top:80px;
 }
 
 p {
