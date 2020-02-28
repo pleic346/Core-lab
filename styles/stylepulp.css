@@ -8,8 +8,6 @@ body {
   font-size:1em;
   background:black;
   color:white;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-feature-settings: "tnum";
 }
 
 .t{
