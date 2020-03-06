@@ -5,7 +5,7 @@
 	position:relative;
 }
 
-.container {
+.container{
 	width:100%;
 	max-width: 80%;
 	height:100%;
@@ -17,53 +17,52 @@
 	align-items:center;
 }
 
-.clipsa {
-	width:18%;
+.clip{
+	width:100%;
 	height:auto;
 	margin: 0 auto;
 	display:block;
-	position:absolute;
+	position:fixed;
+	align-self: center;
+	bottom: -50px;
 
-}
-.clipsb {
-	width:18%;
-	height:auto;
-	margin: 0 auto;
-	display:block;
-	position:absolute;
-
-}
-.back {
-	width:120%;
-	height:auto;
-	position:relative;
-	align-self:center;
-	margin-top:80px;
-	display:block;
-}
-
-.hat{
-	width:8%;
-	height:auto;
-	margin: 0 auto;
-	display:block;
-	position:absolute;
 }
 
 .face{
-	width:8%;
+	width:21%;
 	height:auto;
 	margin: 0 auto;
 	display:block;
 	position:absolute;
+	left: 510px;
+	bottom:380px;
+}
+
+.hat{
+	width: 350px;
+	position:relative;
+	left:-250px;
+	bottom:-32px;
+}
+
+.chus{
+	width:30%;
+	position: absolute;
+	margin:0 auto;
+	display: block;
+	top:61px;
+	right:190px;
 }
 
 .mask{
-	width:8%;
+	width:5.9%;
 	height:auto;
 	margin: 0 auto;
 	display:block;
 	position:absolute;
+	bottom:300px;
+	left:660px;
+	transform: rotate(15deg);
 }
 
 .shoes{
@@ -80,9 +79,11 @@
 	margin: 0 auto;
 	display:block;
 	position:absolute;
+	bottom:160px;
+	right:500px;
 }
 
-.changey {
+.changey{
 	width:5%;
 	height:auto;
 	margin: 0 auto;
@@ -92,14 +93,15 @@
 	bottom:40px;
 }
 
-.oran {
-	width:65%;
+.oran{
+	width:3.2%;
 	height:auto;
 	margin: 0 auto;
 	display:block;
-	position:relative;
-	bottom: -350px;
-	left:-800px;
+	position:absolute;
+	bottom:40px;
+	left:128px;
+
 }
 
 .changep{
@@ -112,9 +114,9 @@
 	left: 55px;
 }
 /*code for mobile*/
-@media (max-width: 800px) {
+@media (max-width: 800px){
 .container{
-	background:white;
+	background:blue;
 		flex-direction: column;
 
 }
