@@ -7,18 +7,6 @@ body{
 	position:relative;
 }
 
-.container{
-	width:100%;
-	height:auto;
-	background-color:black;
-	margin: 0 auto;
-	display:flex;
-	flex-direction: row;
-	flex-wrap:wrap;
-	justify-content:center;
-	align-items:center;
-}
-
 .clip{
 	width:100%;
 	height:auto;
