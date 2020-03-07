@@ -253,6 +253,15 @@
 	top:301px;
 	right:30px;
 }
+.money {
+	width:8%;
+	height:auto;
+	margin: 0 auto;
+	display:block;
+	position:absolute;
+	bottom:335px;
+	right:150px;
+}
 
 }
 
