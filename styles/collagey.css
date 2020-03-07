@@ -8,6 +8,7 @@ html{
 	position:relative;
 }
 .container{
+	background-color: #fffc25;
 	width:100%;
 	max-width: 80%;
 	height:100%;
@@ -120,7 +121,7 @@ html{
 
 @media (max-width: 1500px){
 	.albums{
-		background:white;
+		background:grey;
 	}
 	.clip {
 	margin:0 auto;
