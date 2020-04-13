@@ -1,0 +1,157 @@
+html{
+  width:100%;
+  height:auto;
+  background-color: #C4C4C4;
+  cursor:auto;
+}
+
+.bio{
+position: absolute;
+top: -10px;
+width: 945px;
+height: auto;
+margin-top: 200px;
+/* Half the height */
+margin-left: 200px;
+font-family: Impact;
+color:white;
+font-size: 12px;
+letter-spacing: 1.5px;
+word-spacing: 2px;
+}
+
+strong {
+color: red;
+font-size: 55px;
+-webkit-text-stroke: 0.1px black;
+}
+
+h4 {
+  color:black;
+  font-size: 20px;
+}
+
+b{
+font-size: 50px;
+color:rgb(251, 255, 0);
+}
+h2{
+  font-size:45px;
+color:white;
+}
+.work {
+transition:transform 0.25s ease;
+}
+
+.work:hover {
+-webkit-transform:scale(1.1); /* or some other value */
+transform:scale(1.1);
+}
+
+.about {
+transition:transform 0.25s ease;
+}
+
+.about:hover {
+-webkit-transform:scale(1.1); /* or some other value */
+transform:scale(1.1);
+}
+
+.contact {
+transition:transform 0.25s ease;
+}
+
+.contact:hover {
+-webkit-transform:scale(1.1); /* or some other value */
+transform:scale(1.1);
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+a:hover {
+text-decoration: none;
+color: red;
+}
+a:visited {
+text-decoration: none;
+}
+
+a:focus {
+text-decoration: none;
+color: red;
+}
+.me{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 280px;
+  height: 280px;
+  margin-top: -220px; /* Half the height */
+  margin-left: -140px;
+}
+
+.logo{
+  left:0;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 10%;
+  position:fixed;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition:         transform .6s ease-in-out;
+}
+.logo:hover{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.gallery {
+      right:0px;
+      margin-right:350px;
+      margin-top:25px;
+      position: absolute;
+      color: white;
+        font-size: 30px;
+      font-family: Impact;
+    }
+
+.work{
+  right:0px;
+  margin-right:500px;
+  margin-top:25px;
+  position: absolute;
+  color: white;
+    font-size: 30px;
+  font-family: Impact;
+}
+.about{
+  right:0px;
+  margin-right:80px;
+  margin-top:25px;
+  position: absolute;
+  color: white;
+    font-size: 30px;
+  font-family: Impact;
+}
+
+.contact{
+  right:0px;
+  margin-right:200px;
+  margin-top:25px;
+  position: absolute;
+  color: white;
+    font-size: 30px;
+   font-family: Impact;
+}
+.side{
+  position:fixed;
+  top:150px;
+  right:35px;
+  color: cyan;
+  font-size: 50px;
+  font-family: Impact;
+  z-index: 5;
+  transform: rotate(-90deg);
+}
+
