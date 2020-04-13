@@ -155,6 +155,124 @@ color: red;
   transform: rotate(-90deg);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+html{
+  background-color: rgb(180, 155, 192);
+  flex-direction: column;
+}
+
+.logo {
+  left:0;
+  margin-left: 15px;
+  width: 15%;
+  margin-top:-1px;
+}
+.side {
+color:cyan;
+font-size: 20px;
+right:10px;
+top:80px;
+}
+
+.lado {
+      color:red;
+      font-size: 15px;
+      top:195px;
+      right:7px;
+}
+a{
+  color:red;
+}
+
+.work {
+  font-size: 18px;
+  right:0px;
+  margin-right:300px;
+  margin-top:25px;
+  position: absolute;
+  color:red;
+}
+
+.gallery {
+  right:0px;
+    margin-right:220px;
+    margin-top:25px;
+    position: absolute;
+    font-size:18px;
+    color:red;
+}
+
+.about {
+  right:0px;
+  margin-right:65px;
+  margin-top:25px;
+  position: absolute;
+  font-size: 18px;
+  color:red;
+}
+
+.contact {
+  right:0px;
+    margin-right:140px;
+    margin-top:25px;
+    position: absolute;
+    font-size:18px;
+    color:red;
+}
+
+.flex-image {
+  width:800%;
+  height:auto;
+  width:300px;
+  align-self:center;
+  padding:15px;
+}
+
+.back {
+  display:none;
+}
+
+strong {
+  font-size: 25px;
+  transform:none;
+  color:yellow;
+}
+
+.circle {
+  right:35px;
+}
+
+.text {
+  right:55px;
+}
+
+.container {
+  margin-top: 55px;
+}
+
+.bio {
+top:-90px;
+width:400px;
+left:-150px;
+}
+
+h1{
+font-size:20px;
+}
+
+h2 {
+font-size:15px;
+}
+
+b{
+font-size:20px;
+}
+.im{
+width:100%;
+}
+}
+
 
 @media (max-width: 800px) {
   html{

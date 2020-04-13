@@ -359,7 +359,210 @@ a:focus {
   #text12.appear{
     display:block;
   }
+  @media (min-width: 768px) and (max-width: 1024px) {
 
+  html{
+    background-color: rgb(180, 155, 192);
+    flex-direction: column;
+}
+
+.logo {
+    left:0;
+    margin-left: 15px;
+    margin-top: 0;
+    width: 15%;
+}
+.side {
+    color:cyan;
+    font-size: 20px;
+    right:10px;
+    top:90px;
+}
+
+a{
+    color:red;
+}
+
+.work {
+    font-size: 18px;
+    right:0px;
+    margin-right:300px;
+    margin-top:25px;
+    position: absolute;
+    color:red;
+}
+
+.gallery {
+    right:0px;
+    margin-right:220px;
+    margin-top:25px;
+    position: absolute;
+    font-size:18px;
+    color:red;
+}
+
+.about {
+    right:0px;
+    margin-right:65px;
+    margin-top:25px;
+    position: absolute;
+    font-size: 18px;
+    color:red;
+}
+
+.contact {
+    right:0px;
+    margin-right:140px;
+    margin-top:25px;
+    position: absolute;
+    font-size:18px;
+    color:red;
+}
+
+.flex-image {
+    width:800%;
+    height:auto;
+    width:300px;
+    align-self:center;
+    padding:15px;
+}
+
+.back {
+    display:none;
+}
+
+strong {
+    font-size: 25px;
+    transform:none;
+    color:white;
+}
+
+.circle {
+    width: 30px;
+    height:30px;
+    margin-bottom: 10px;
+}
+
+
+#class1 {
+    top:50px;
+}
+
+#class2 {
+    top:100px;
+}
+
+#class3 {
+    top:150px;
+}
+
+#class4{
+    top:200px;
+}
+
+#class5 {
+    top:250px;
+}
+
+#class6{
+    top:300px;
+}
+
+#class7{
+    top:350px;
+}
+
+#class8{
+    top:400px;
+}
+
+#class9 {
+    top:450px;
+}
+
+#class10 { 
+    top:500px;
+}
+
+#class11 {
+    top:550px;
+}
+
+#class12 {
+    top:600px;
+}
+
+.text {
+font-size:15px;
+left:300px;
+}
+
+.container {
+    margin-top: 55px;
+}
+
+
+#text1 {
+top:50px;
+display:none;
+}
+
+#text2 {
+top:100px;
+display:none;
+}
+
+#text3 {
+top:150px;
+display:none;
+}
+
+#text4 {
+top:200px;
+display:none;
+}
+
+#text5 {
+top:250px;
+display:none;
+}
+
+#text6 {
+top:300px;
+display:none;
+}
+
+#text7 {
+top:350px;
+display:none;
+}
+
+#text8 {
+top:400px;
+display:none;
+}
+
+#text9 {
+top:450px;
+display:none;
+}
+
+#text10 {
+top:500px;
+display:none;
+}
+
+#text11 {
+top:550px;
+display:none;
+}
+
+#text12 {
+top:600px;
+display:none;
+
+}
+  }
   
   @media (max-width: 800px) {
     html{
@@ -444,9 +647,6 @@ a:focus {
         margin-bottom: 10px;
     }
 
-    .rectangle {
-        display:none;
-    }
 
     #class1 {
         top:50px;
