@@ -1,0 +1,192 @@
+html {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  cursor:auto;
+  overflow:hidden;
+
+}
+
+body{
+  width: 100px;
+  height: 100px;
+  overflow:hidden;
+}
+
+.work {
+  transition:transform 0.25s ease;
+}
+
+.work:hover {
+  -webkit-transform:scale(1.1); /* or some other value */
+  transform:scale(1.1);
+}
+
+.about {
+  transition:transform 0.25s ease;
+}
+
+.about:hover {
+  -webkit-transform:scale(1.1); /* or some other value */
+  transform:scale(1.1);
+}
+
+.contact {
+  transition:transform 0.25s ease;
+}
+
+.contact:hover {
+  -webkit-transform:scale(1.1); /* or some other value */
+  transform:scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px white;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px yellow;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px white;
+}
+
+.logo {
+  right: 0;
+  margin-right: 50px;
+  margin-top: 50px;
+  width: 5%;
+  position: fixed;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+}
+
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.work {
+  margin-left: 50px;
+  margin-top: 25px;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  -webkit-text-stroke: 1.8px white;
+  font-family: Impact, Charcoal, sans-serif;
+  display:flex;
+}
+.about {
+  margin-left: 200px;
+  margin-top: 25px;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  -webkit-text-stroke: 1.8px white;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.contact {
+  margin-left: 350px;
+  margin-top: 25px;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  -webkit-text-stroke: 1.8px white;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.ny{
+  position:absolute;
+    bottom:50px;
+    margin-left: -15px;
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Impact, Charcoal, sans-serif;
+    transform: rotate(-90deg);
+}
+
+.gif {
+  position:absolute;
+  width: 1350px;
+  height: auto;
+  z-index:-10;
+  margin-top:2%;
+  margin-left:7%;
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+
+  .work {
+    margin-left: 25px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
+        display:flex;
+  }
+  .about {
+    margin-left: 110px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
+    }
+  
+  .contact {
+    margin-left: 195px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
+    }
+
+  .logo {
+    right: 0;
+    margin-right: 25px;
+    margin-top: 20px;;
+    width: 9%;
+    position: fixed;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .gif {
+    position:absolute;
+    width: 100%;
+    height: auto;
+    z-index:-10;
+    top:12%;
+    left:0;
+    right:0;
+  }
+  .ny{
+    position:absolute;
+    width: 500%;
+    height: auto;
+    top:50%;
+    left:10%;
+      color: white;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-family: 'Anton', sans-serif;
+            transform: none;
+  }
+}

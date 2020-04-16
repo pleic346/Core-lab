@@ -1,0 +1,246 @@
+html {
+    width:100%;
+    height:auto;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y:auto;
+  }
+  .work {
+    transition:transform 0.25s ease;
+  }
+  
+  .work:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+  }
+  
+  .about {
+    transition:transform 0.25s ease;
+  }
+  
+  .about:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+  }
+  
+  .contact {
+    transition:transform 0.25s ease;
+  }
+  
+  .contact:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px cyan;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+
+  .logo {
+    right:0;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 5%;
+    position:fixed;
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    transition:         transform .6s ease-in-out;
+  }
+  .logo:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .work{
+    margin-left:50px;
+    margin-top:25px;
+    position: absolute;
+    color: black;
+      font-size: 30px;
+      -webkit-text-stroke: 1.8px white;
+    font-family: Impact;
+  }
+  .about{
+    margin-left:200px;
+    margin-top:25px;
+    position: absolute;
+    color: black;
+      font-size: 30px;
+      -webkit-text-stroke: 1.8px white;
+    font-family: Impact;
+  }
+  
+  .contact{
+    margin-left:350px;
+    margin-top:25px;
+    position: absolute;
+    color: black;
+      font-size: 30px;
+      -webkit-text-stroke: 1.8px white;
+    font-family: Impact;
+  }
+  .side{
+    position:fixed;
+    bottom:55px;
+    margin-left: -15px;
+    color: black;
+    font-size: 34px;
+    font-family: Impact;
+    z-index: 5;
+    transform: rotate(-90deg);
+  }
+  .rectangle {
+    height: 190px;
+    width: 88px;
+    bottom:35px;
+    position:fixed;
+    z-index: inherit -5;
+    background-color: white;
+  }
+
+  .container{
+    margin-top: 150px;
+    width:100%;
+    max-width: 100%;
+    height:100%;
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .flex-image {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px;
+  }
+  strong{
+    font-size: 55px;
+    font-family: Impact;
+    letter-spacing: 1.5px;
+    color:black;
+    -webkit-text-stroke: 1px white;
+
+}
+.des {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px; 
+    color:rgb(224, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: Impact;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+b{
+    color:grey;
+    font-size: 20px;
+}
+
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  *{
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
+
+  }
+
+  html{
+    overflow-x: hidden;
+    overflow-y:auto;
+  }
+  
+  .work {
+    margin-left: 25px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    -webkit-text-stroke: 1.8px white;
+    display:flex;
+  }
+  .about {
+    margin-left: 110px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    -webkit-text-stroke: 1.8px white;
+  }
+  
+  .contact {
+    margin-left: 195px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    -webkit-text-stroke: 1.8px white;
+  }
+
+  .logo {
+    right: 0;
+    margin-right: 25px;
+    margin-top: 20px;;
+    width: 9%;
+    position: fixed;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .side{
+    position:fixed;
+    bottom:55px;
+    margin-left: -7px;
+    color: black;
+    font-size: 25px;
+    z-index: 5;
+    transform: rotate(-90deg);
+  }
+  .rectangle {
+    height: 152px;
+    width: 70.4px;
+    bottom:35px;
+    position:fixed;
+    z-index: inherit -5;
+    background-color: white;
+  }
+
+  .container{
+    margin-top: 150px;
+    width:95%;
+    max-width: 100%;
+    height:100%;
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+  }
+
+}
