@@ -1,3 +1,7 @@
+*{
+  overflow-x: hidden;
+  overflow-y:hidden;
+}
 html {
   width: 100px;
   height: 100px;
@@ -107,8 +111,8 @@ a:focus {
 
 .ny{
   position:absolute;
-    bottom:50px;
-    margin-left: -15px;
+    bottom:150px;
+   left: -50px;
     color: white;
     -webkit-text-stroke: 0.3px black;
     font-size: 20px;
@@ -126,8 +130,36 @@ a:focus {
   margin-left:7%;
 }
 
-@media (min-width: 400px) and (max-width: 1024px) {
 
+@media (min-width: 400px) and (max-width: 1024px) {
+  *{
+    overflow-x: hidden;
+  overflow-y:hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+    overflow-y:hidden;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px yellow;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
   .work {
     margin-left: 25px;
     margin-top: 0;
@@ -135,7 +167,6 @@ a:focus {
     color: black;
     font-size: 22px;
     font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
         display:flex;
   }
   .about {
@@ -145,7 +176,6 @@ a:focus {
     color: black;
     font-size: 22px;
     font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
     }
   
   .contact {
@@ -155,14 +185,13 @@ a:focus {
     color: black;
     font-size: 22px;
     font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
     }
 
   .logo {
     right: 0;
-    margin-right: 25px;
-    margin-top: 20px;;
-    width: 9%;
+    margin-right: 30px;
+    margin-top: 23px;;
+    width: 6%;
     position: fixed;
     -webkit-transition: -webkit-transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out;
@@ -184,9 +213,114 @@ a:focus {
     top:50%;
     left:10%;
       color: white;
-      font-size: 20px;
+      font-size: 14px;
       letter-spacing: 1px;
       font-family: 'Anton', sans-serif;
             transform: none;
   }
+  .gif_o {
+    display:flex;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    z-index:-10;
+    top:50%;
+    left:0;
+    right:0;
+    opacity: 30%;
+    transform: rotate(180deg);
+  }
+
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+*{
+  overflow-x: hidden;
+  overflow-y:hidden;
+}
+  html {
+display:block;
+    overflow-x: hidden;
+    overflow-y:hidden;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px yellow;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+  .work {
+    margin-left: 15px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+        display:flex;
+  }
+  .about {
+    margin-left: 65px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    }
+  
+  .contact {
+    margin-left: 115px;
+    margin-top: 0;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    }
+
+  .logo {
+    right: 0;
+    margin-right: 30px;
+    margin-top: 20px;;
+    width: ;
+    position: fixed;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .gif {
+    position:absolute;
+    width: 100%;
+    height: auto;
+    z-index:-10;
+    top:5%;
+    left:-5%;
+    right:0;
+  }
+  .ny{
+    position:absolute;
+    width: 500%;
+    height: auto;
+    top:90%;
+    left:10%;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-family: 'Anton', sans-serif;
+            transform: none;
+  }
+
+
+}
+

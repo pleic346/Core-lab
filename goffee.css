@@ -170,14 +170,30 @@ i{
 }
 
 @media (min-width: 400px) and (max-width: 1024px) {
-  *{
-    font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
 
-  }
   html{
     overflow-x:hidden;
     overflow-y:auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px cyan;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
   }
   .work {
     margin-left: 25px;
@@ -185,7 +201,6 @@ i{
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 1.8px white;
     display:flex;
   }
   .about {
@@ -194,7 +209,6 @@ i{
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 1.8px white;
   }
   
   .contact {
@@ -203,7 +217,6 @@ i{
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 1.8px white;
   }
 
   .logo {
@@ -246,5 +259,188 @@ i{
     justify-content:center;
     align-items:center;
   }
+  strong{
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.5px;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
 
 }
+
+  .des {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px; 
+    color:rgb(224, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+b{
+  font-family: 'Anton', sans-serif;
+
+    color:grey;
+    font-size: 20px;
+}
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+  *{
+    overflow-x: hidden;
+    overflow-y:auto;
+  }
+    html {
+  display:block;
+      overflow-x: auto;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 0.5px white;
+    }
+    a:hover {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1.8px yellow;
+    }
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:focus {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1.8px white;
+    }
+    .work {
+      margin-left: 15px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 15px;
+      font-family: 'Anton', sans-serif;
+          display:flex;
+    }
+    .about {
+      margin-left: 65px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 15px;
+      font-family: 'Anton', sans-serif;
+      }
+    
+    .contact {
+      margin-left: 115px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 15px;
+      font-family: 'Anton', sans-serif;
+      }
+  
+    .logo {
+      right: 0;
+      margin-right: 30px;
+      margin-top: 20px;;
+      width: ;
+      position: fixed;
+      -webkit-transition: -webkit-transform 0.6s ease-in-out;
+      transition: transform 0.6s ease-in-out;
+    }
+  
+    .gif {
+      position:absolute;
+      width: 100%;
+      height: auto;
+      z-index:-10;
+      top:5%;
+      left:-5%;
+      right:0;
+    }
+    .ny{
+      position:absolute;
+      width: 500%;
+      height: auto;
+      top:90%;
+      left:10%;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Anton', sans-serif;
+              transform: none;
+    }
+  
+    strong{
+      font-size: 25px;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1.5px;
+      color: black;
+      -webkit-text-stroke: 0.5px white;
+  
+  }
+  
+    .des {
+      width:100%;
+      height:auto;
+      width:300px;
+      align-self:center;
+      padding:25px; 
+      color:rgb(224, 224, 224);
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      text-align: center;
+      font-size: 13px;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+  }
+  
+  b{
+    font-family: 'Anton', sans-serif;
+  
+      color:grey;
+      font-size: 20px;
+  }
+  .side{
+display:none;
+  }
+
+  .rectangle {
+display:none;
+  }
+
+  .container{
+    margin-top: 100px;
+    width:100%;
+    max-width: 100%;
+    height:100%;
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+  }
+  .flex-image {
+    width:100%;
+    height:auto;
+    width:300px;
+    align-self:center;
+    padding:25px;
+    background:none;
+    z-index:-10px;
+  }
+
+
+  
+  }
