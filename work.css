@@ -141,6 +141,37 @@ html {
     filter:  blur(2px);
   }
 
+  strong{
+    font-size: 55px;
+    font-family: Impact;
+    letter-spacing: 1.5px;
+    color:black;
+    -webkit-text-stroke: 1px white;
+
+}
+.des {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px; 
+    color:rgb(224, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: Impact;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+b{
+    color:grey;
+    font-size: 20px;
+}
+
+
     @media (min-width: 400px) and (max-width: 1024px)  {
    html{
      overflow-x: hidden;
@@ -235,6 +266,38 @@ html {
       justify-content:center;
       align-items:center;
     }
+    strong{
+      font-size: 55px;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1.5px;
+      color: black;
+      -webkit-text-stroke: 1.8px white;
+  
+  }
+
+    .des {
+      width:100%;
+      height:auto;
+      width:500px;
+      align-self:center;
+      padding:25px; 
+      color:rgb(224, 224, 224);
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      text-align: center;
+      font-size: 23px;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+  }
+  
+  b{
+    font-family: 'Anton', sans-serif;
+
+      color:grey;
+      font-size: 20px;
+  }
 
   }
   @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
@@ -398,7 +461,38 @@ html {
       background:none;
       z-index:-10px;
     }
+    strong{
+      font-size: 25px;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1.5px;
+      color: black;
+      -webkit-text-stroke: 0.5px white;
   
+  }
+  
+    .des {
+      width:100%;
+      height:auto;
+      width:300px;
+      align-self:center;
+      padding:25px; 
+      color:rgb(224, 224, 224);
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      text-align: center;
+      font-size: 13px;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+  }
+  
+  b{
+    font-family: 'Anton', sans-serif;
+  
+      color:grey;
+      font-size: 20px;
+  }
 
     
     }
