@@ -23,4 +23,21 @@ clickCirc.addEventListener("click", function(){
   
 })
 
+var clickCir = document.querySelector(".ad");
+var dog = document.querySelector(".em");
+
+clickCir.addEventListener("click", function(){
+  dog.classList.toggle("appear")
+  
+})
+
+var clickCr = document.querySelector(".cart");
+var dag = document.querySelector(".empty");
+
+clickCr.addEventListener("click", function(){
+  dag.classList.toggle("appear")
+  
+})
+
+
 

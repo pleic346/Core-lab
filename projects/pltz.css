@@ -1,3 +1,4 @@
+
 html {
   width: 100%;
   height: auto;
@@ -17,10 +18,9 @@ html {
   border-radius: 0;
   padding: 0;
   background-color: white;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  cursor: auto;
+  cursor: pointer;
   display: block;
+
 }
 
 .bar {
@@ -129,6 +129,8 @@ a:focus {
   -webkit-transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   z-index: 10px;
+  cursor: pointer;
+
 }
 .logo:hover {
   -webkit-transform: rotate(360deg);
@@ -142,9 +144,7 @@ a:focus {
   margin-top: 58px;
   width: 6%;
   position: fixed;
-  -webkit-transition: -webkit-transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  z-index: 10px;
+  cursor:pointer;
 }
 
 .work {
@@ -168,7 +168,77 @@ a:focus {
   font-family: Helvetica;
   z-index: 5;
   border-radius: 25px;
+  cursor: pointer;
 }
+
+.cov {
+  position: fixed;
+  bottom: 35px;
+  margin-left: 30px;
+  color: white;
+  text-align: left;
+  font-size: 50px;
+  font-family: Helvetica;
+  z-index: 5;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.ad {
+  position: fixed;
+  bottom: 32px;
+right: 107px;
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+  z-index: 5;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.rectan {
+  height: 70px;
+  width: 200px;
+  bottom: 35px;
+right: 70px;
+  position: fixed;
+  z-index: inherit -5;
+  background-color: #BDFF00;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.empty {
+  height: auto;
+  width: 240px;
+  top: 155px;
+ right: 30px;
+  position: fixed;
+  z-index:50;
+  display:none;
+}
+
+.empty.appear{
+  display:block;
+  z-index:50;
+}
+
+.em {
+  height: auto;
+  width: 240px;
+  top: 155px;
+ right: 30px;
+  position: fixed;
+  z-index:50;
+  display:none;
+}
+
+.em.appear{
+  display:block;
+  z-index:50;
+}
+
+
 .rectangle {
   height: 70px;
   width: 240px;
@@ -178,6 +248,16 @@ a:focus {
   z-index: inherit -5;
   background-color: #BDFF00;
   border-radius: 35px;
+  cursor: pointer;
+}
+
+
+.ho {
+  position: fixed;
+  width: 13%;
+  right:650px;
+  top: 300px;
+  display:block;
 }
 
 .hoodie {
@@ -256,6 +336,7 @@ z-index:20;
   position: absolute;
   z-index:10px;
 }
+
 
 .hoodie.appear{
   display:block;
@@ -397,6 +478,7 @@ z-index:20;
     transform: rotate(-90deg);
   }
 
+  
 
 
   .container {
