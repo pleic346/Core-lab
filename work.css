@@ -142,6 +142,7 @@ a:focus {
   padding: 25px;
   background: none;
   z-index: -10px;
+  cursor:pointer;
 }
 
 .contain {
@@ -162,6 +163,7 @@ a:focus {
   width:500px;
   position:relative;
   margin:25px;
+  cursor:pointer;
 }
 
 .flexbox img {
@@ -174,6 +176,7 @@ a:focus {
   top:0;
   left:0;
   opacity:0;
+  cursor:pointer;
 }
 
 .flexbox:hover .flexbox-image {
@@ -195,15 +198,18 @@ a:focus {
   display: block;
   /* background:black; */
   transition: transform 0.25s ease;
+  cursor:pointer;
 }
 
 .flex-im:hover {
   opacity: 30%;
+  cursor:pointer;
 }
 
 .flex-image:hover {
   opacity: 100%;
   filter: blur(2px);
+  cursor:pointer;
 }
 
 @media (min-width: 400px) and (max-width: 1024px) {
