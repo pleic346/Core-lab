@@ -412,7 +412,7 @@ z-index:20;
 
       *{
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: auto;
       }
 
       html {
@@ -679,13 +679,15 @@ right: 70px;
   position: relative;
   width: 48%;
   top: -50px;
-  display:none;
+  display:block;
+  /* display:none; */
 }
 
 .hoodi {
   position: relative;
   width: 52%;
-  display: none;
+  display:block;
+  /* display: none; */
   top:-88px;
   left:-5px;
 }
@@ -693,9 +695,10 @@ right: 70px;
 .hood {
   position: relative;
   width: 52%;
-  display: none;
+  /* display: none; */
   top:-88px;
   left:-5px;
+  display:block;
 }
 
 .uno {
