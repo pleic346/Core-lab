@@ -4,7 +4,7 @@ html {
   height: auto;
   background-color: black;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
   cursor: auto;
 }
 
@@ -54,7 +54,7 @@ html {
   position: absolute;
   background-color: black;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
   cursor: auto;
   z-index: -10px;
 }
@@ -405,26 +405,32 @@ z-index:20;
   cursor: move;
 }
 
-@media (min-width: 400px) and (max-width: 1024px) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
 
-html {
+      *{
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+
+      html {
   width: 100%;
   height: auto;
   background-color: black;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
   cursor: auto;
 }
 
 .bod {
-  width: 80%;
-  height: 10px;
+  width: 140%;
+  height: 90px;
   left: 0;
   top: 0;
-  margin-left: -50px;
-  margin-top: 35px;
-  border-radius: 0;
-  padding: 0;
+  margin-left: -10;
+  margin-top: 23px;
   background-color: white;
   cursor: pointer;
   display: block;
@@ -432,10 +438,11 @@ html {
 }
 
 .bar {
-  width:10%;
+  width:100%;
   position:fixed;
-  top:0;
-  left:450px;
+top:0;
+left:0;
+z-index:10;
   /* margin: auto 0;
   display:block; */
 }
@@ -453,8 +460,8 @@ html {
     } */
 
 .black {
-  width: 160%;
-  height: 35px;
+  width: 100%;
+  height: auto%;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -464,7 +471,7 @@ html {
   overflow-x: hidden;
   overflow-y: hidden;
   cursor: auto;
-  z-index: -10px;
+  z-index: -10;
 }
 
 #stay {
@@ -530,9 +537,9 @@ a:focus {
 .logo {
   left: 0;
   top: 0;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 58px;
-  width: 5%;
+  width: 10%;
   position: fixed;
   -webkit-transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
@@ -548,9 +555,9 @@ a:focus {
 .cart {
   right: 0;
   top: 0;
-  margin-right: 50px;
-  margin-top: 58px;
-  width: 6%;
+  margin-right: 20px;
+  margin-top: 63px;
+  width: 12%;
   position: fixed;
   cursor:pointer;
 }
@@ -559,18 +566,18 @@ a:focus {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: -50px;
+  margin-top: -5px;
   text-align: center;
   position: fixed;
   color: black;
-  font-size: 90px;
+  font-size: 50px;
   font-family: Helvetica;
 }
 
 .side {
   position: fixed;
-  top: 190px;
-  margin-left: 57px;
+  top: 120px;
+  margin-left: 85px;
   color: black;
   font-size: 30px;
   font-family: Helvetica;
@@ -581,11 +588,11 @@ a:focus {
 
 .cov {
   position: fixed;
-  bottom: 35px;
-  margin-left: 30px;
+  top:200px;
+  margin-left: 10px;
   color: white;
   text-align: left;
-  font-size: 50px;
+  font-size: 25px;
   font-family: Helvetica;
   z-index: 5;
   border-radius: 25px;
@@ -650,8 +657,8 @@ right: 70px;
 .rectangle {
   height: 70px;
   width: 240px;
-  top: 205px;
-  margin-left: 30px;
+  top: 135px;
+  right:67;
   position: fixed;
   z-index: inherit -5;
   background-color: #BDFF00;
@@ -793,10 +800,9 @@ z-index:20;
   width: 900px;
   height: 560px;
   right: 0;
-  margin-right: 50px;
-  margin-top: 35px;
+  margin-right: 25px;
+  margin-top: 450px;
   position: fixed;
-  overflow-y: hidden;
   overflow-x: hidden;
   background: none;
   padding: 20px;
