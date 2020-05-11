@@ -7,6 +7,9 @@ html{
     overflow-y:auto;
   }
 
+  body {
+  }
+
 .bio{
   position: absolute;
   top: 50%;
@@ -17,8 +20,8 @@ html{
   font-family: Impact;
   color:white;
   font-size: 12px;
-  letter-spacing: 1px;
-  word-spacing: 1px;
+  word-spacing: 2px;
+
 }
 
 strong {
@@ -97,11 +100,13 @@ a:focus {
     position:fixed;
     -webkit-transition: -webkit-transform .6s ease-in-out;
     transition:         transform .6s ease-in-out;
+
   }
   .logo:hover{
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+  
   .work{
     margin-left:50px;
     margin-top:25px;
@@ -201,12 +206,11 @@ a:focus {
       font-size: 22px;
       font-family: 'Anton', sans-serif;
     }
-  
     .logo {
       right: 0;
-      margin-right: 25px;
-      margin-top: 20px;;
-      width: 9%;
+      margin-right: 30px;
+      margin-top: 23px;;
+      width: 6%;
       position: fixed;
       -webkit-transition: -webkit-transform 0.6s ease-in-out;
       transition: transform 0.6s ease-in-out;
@@ -256,7 +260,7 @@ a:focus {
 
     .bio{
       position: absolute;
-      top: 24%;
+      top: 32%;
       width: 300px;
       height: auto;
       margin-top: 190px; /* Half the height */
@@ -264,8 +268,6 @@ a:focus {
       color:white;
       font-family: 'Anton', sans-serif;
       font-size: 9px;
-      letter-spacing: 0px;
-      word-spacing: 0px;
       -webkit-text-stroke:0px;
 }
 
@@ -302,7 +304,7 @@ h2{
       a:hover {
         text-decoration: none;
         color: black;
-        -webkit-text-stroke: 1.8px yellow;
+        -webkit-text-stroke: 1.8px yellowgreen;
       }
       a:visited {
         text-decoration: none;
@@ -344,7 +346,7 @@ h2{
         right: 0;
         margin-right: 30px;
         margin-top: 20px;;
-        width: ;
+        width: 6%;
         position: fixed;
         -webkit-transition: -webkit-transform 0.6s ease-in-out;
         transition: transform 0.6s ease-in-out;
@@ -459,7 +461,7 @@ h2{
 
     .bio{
       position: absolute;
-      top: 15%;
+      top: 21%;
       width: 240px;
       height: auto;
       margin-top: 190px; /* Half the height */
